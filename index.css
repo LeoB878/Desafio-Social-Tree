@@ -1,0 +1,256 @@
+
+
+#container{
+  max-height: 1080px;
+  max-width: 1920px;
+  min-height: 896px;
+  min-width: 414px;
+  left: 0px;
+  top: 0px;
+  background: rgba(187, 153, 221, 0.08);
+}
+#container:root{
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+
+#conteudo{
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  width: 414px;
+  height: 896px;
+
+  background: #FFFFFF;
+}
+
+#elipseFora{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 213px;
+  height: 213px;
+  left: 100px;
+  top: 120px;
+
+  border: 2px solid #BB99DD;
+  border-radius: 50%;
+}
+
+#elipseDentro{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 107px;
+  top: 126px;
+  border-radius: 50%;
+
+  /*background: url(perfil.jpg);*/
+}
+
+#instagram{
+  position: absolute;
+  width: 99px;
+  height: 24px;
+  left: 157px;
+  top: 348px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: #BB99DD;
+}
+
+#retangulo1{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 326px;
+  height: 49px;
+  left: 44px;
+  top: 405px;
+
+  border: 2px solid #BB99DD;
+  border-radius: 4px;
+}
+#twitter{
+  
+  position: absolute;
+  width: 47px;
+  height: 24px;
+  left: 185px;
+  top: 417px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #BB99DD;
+
+
+}
+
+#retangulo2{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 326px;
+  height: 49px;
+  left: 44px;
+  top: 470px;
+
+  border: 2px solid #BB99DD;
+  border-radius: 4px;
+}
+#twitch{
+  position: absolute;
+  width: 326px;
+  height: 24px;
+  left: 46px;
+  top: 482px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #BB99DD;
+}
+
+#retangulo3{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 326px;
+  height: 49px;
+  left: 44px;
+  top: 535px;
+
+  border: 2px solid #BB99DD;
+  border-radius: 4px;
+}
+#linkedin{
+  position: absolute;
+  width: 326px;
+  height: 24px;
+  left: 46px;
+  top: 547px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #BB99DD;
+}
+
+#retangulo4{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 326px;
+  height: 49px;
+  left: 44px;
+  top: 600px;
+
+  border: 2px solid #BB99DD;
+  border-radius: 4px;
+}
+#github{
+  position: absolute;
+width: 326px;
+height: 24px;
+left: 46px;
+top: 612px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+text-decoration: none;
+
+color: #BB99DD;
+}
+
+#iconesRedesSociais{
+  position: absolute;
+  width: 236px;
+  height: 24px;
+  left: 89px;
+  top: 717px;
+
+}
+#iconeTwitter{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 0;
+  top: 0;
+}
+
+#iconeTwitch{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 53px;
+  top: 0;
+}
+
+#iconeInstagram{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 106px;
+  top: 0;
+
+}
+
+#iconeLinkedin{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 159px;
+  top: 0;
+
+}
+
+#iconeGithub{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 212px;
+  top: 0;
+}
+
+
