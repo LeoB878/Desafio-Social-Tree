@@ -1,5 +1,3 @@
-
-
 #container{
   max-height: 1080px;
   max-width: 1920px;
@@ -45,7 +43,53 @@
   top: 126px;
   border-radius: 50%;
 
-  /*background: url(perfil.jpg);*/
+}
+li{
+  list-style-type: none;
+}
+
+.retangulos{
+  
+  box-sizing: border-box;
+
+  position: absolute;
+
+  width: 326px;
+  height: 49px;
+
+  border: 2px solid #BB99DD;
+  border-radius: 4px;
+}
+
+a{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #BB99DD;
+}
+
+.links{
+
+  position: absolute;
+  width: 326px;
+  height: 24px;
+
+}
+
+.icones{
+
+  position: absolute;
+  width: 24px;
+  height: 24px;
+
 }
 
 #instagram{
@@ -55,152 +99,64 @@
   left: 157px;
   top: 348px;
 
-  font-family: 'Poppins';
-  font-style: normal;
+  text-transform: none;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
 
-  text-align: center;
-  text-decoration: none;
-
-  color: #BB99DD;
 }
 
 #retangulo1{
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 326px;
-  height: 49px;
+  
+  
   left: 44px;
   top: 405px;
 
-  border: 2px solid #BB99DD;
-  border-radius: 4px;
+  
 }
 #twitter{
   
-  position: absolute;
-  width: 47px;
-  height: 24px;
-  left: 185px;
-  top: 417px;
-
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-
-  color: #BB99DD;
-
+  
+  left: 0px;
+  top: 12.5px;
 
 }
 
 #retangulo2{
-  box-sizing: border-box;
 
-  position: absolute;
-  width: 326px;
-  height: 49px;
   left: 44px;
   top: 470px;
-
-  border: 2px solid #BB99DD;
-  border-radius: 4px;
+  
 }
 #twitch{
-  position: absolute;
-  width: 326px;
-  height: 24px;
-  left: 46px;
-  top: 482px;
+  
+  left: 0px;
+  top: 12.5px;
 
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-
-  color: #BB99DD;
 }
 
 #retangulo3{
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 326px;
-  height: 49px;
+  
   left: 44px;
   top: 535px;
 
-  border: 2px solid #BB99DD;
-  border-radius: 4px;
 }
 #linkedin{
-  position: absolute;
-  width: 326px;
-  height: 24px;
-  left: 46px;
-  top: 547px;
+  
+  left: 0px;
+  top: 12.5px;
 
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-
-  color: #BB99DD;
 }
 
 #retangulo4{
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 326px;
-  height: 49px;
+  
   left: 44px;
   top: 600px;
 
-  border: 2px solid #BB99DD;
-  border-radius: 4px;
 }
 #github{
-  position: absolute;
-width: 326px;
-height: 24px;
-left: 46px;
-top: 612px;
+  
+  left: 0px;
+  top: 12.5px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-text-decoration: none;
-
-color: #BB99DD;
 }
 
 #iconesRedesSociais{
@@ -212,43 +168,33 @@ color: #BB99DD;
 
 }
 #iconeTwitter{
-  position: absolute;
-  width: 24px;
-  height: 24px;
+  
   left: 0;
   top: 0;
 }
 
 #iconeTwitch{
-  position: absolute;
-  width: 24px;
-  height: 24px;
+  
   left: 53px;
   top: 0;
 }
 
 #iconeInstagram{
-  position: absolute;
-  width: 24px;
-  height: 24px;
+  
   left: 106px;
   top: 0;
 
 }
 
 #iconeLinkedin{
-  position: absolute;
-  width: 24px;
-  height: 24px;
+ 
   left: 159px;
   top: 0;
 
 }
 
 #iconeGithub{
-  position: absolute;
-  width: 24px;
-  height: 24px;
+  
   left: 212px;
   top: 0;
 }
